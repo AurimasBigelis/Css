@@ -1,0 +1,64 @@
+body {
+  background-image: url("images/bg1.png");
+
+}
+.mainbox{
+  width: 800px;
+  height: 1260px;
+  background-color: white;
+  margin: auto;
+ padding: 10px;
+ box-shadow: 5px 10px 8px #888888;
+}
+.virsus{
+  width: 800px;
+}
+.R{
+  float: left;
+  position: relative;
+  top: 5px;
+
+}
+.R1{
+  float: left;
+  position: relative;
+  top: 5px;
+}
+.R2{
+  float: left;
+  position: relative;
+  top: 5px;
+}
+.R3{
+  float: left;
+  position: relative;
+  top: 5px;
+}
+.dugnas{
+width: 800px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+.pirmas{
+  background-color: DodgerBlue;
+  width: 260px;
+  height:4px;
+}
+.pirmas1{
+  background-color: DodgerBlue;
+  width: 260px;
+  height:4px;
+}
+.Sign{
+font-family: 'Dancing Script', cursive;
+text-align: bold;
+}
+.logo{
+  position: absolute;
+  top: 50px;
+  left: 395px;
+}
+span{
+  color:blue;
+}

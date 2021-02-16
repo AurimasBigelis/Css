@@ -1,0 +1,49 @@
+.box1 {
+  margin: 60px;
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
+.box2 {
+  margin: 60px;
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+  animation-direction:alternate-reverse;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:coral;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:darksalmon;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:indianred;
+    transform:rotate(90deg);
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+    background:lightcoral;
+    transform:rotate(135deg);
+  }
+  100% {
+    border-radius:50%;
+    background:darksalmon;
+    transform:rotate(180deg);
+  }
+}
+.mainbox{
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}

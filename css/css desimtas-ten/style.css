@@ -1,0 +1,148 @@
+.Mainbox{
+  width: 100%;
+  margin: 0 auto;
+  background-color: GhostWhite;
+  text-align: center;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+}
+.boxholder{
+display: flex;
+flex-direction: column;
+}
+.box1{
+  width: 255px;
+  background-color: white;
+  margin: 25px auto;
+  border-top: blue;
+  border-radius: 5px 5px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  border-top: 5px solid green;
+}
+.nuotrauka{
+   display: flex;
+justify-content:flex-end;
+}
+.box2{
+  width: 255px;
+  margin: 25px auto;
+  background-color: white;
+  box-sizing: border-box;
+  text-align: left;
+  border-top: 5px solid red;
+
+}
+.box3{
+  width: 255px;
+  margin: 25px auto;
+  background-color: white;
+  box-sizing: border-box;
+  text-align: left;
+  border-top: 5px solid blue;
+}
+.box4{
+  width: 255px;
+  margin: 25px auto;
+  background-color: white;
+  box-sizing: border-box;
+  text-align: left;
+  border-top: 5px solid pink;
+}
+.pav{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  color: grey;
+}
+.pav1{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: grey;
+}
+.pav2{
+  font-family: arial;
+  text-align: center;
+}
+h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+body{
+  background-color: GhostWhite;
+}
+}
+@media only screen and (min-width: 1200px){
+.Mainbox {background: White;
+  width: calc((100% / 3) - 10px);
+}
+}
+@media only screen and (min-width: 1200px){
+.box1 {background: White;
+  width: calc((100% / 3) - 10px);
+}
+}
+@media only screen and (min-width: 1200px){
+.box2 {background: White;
+  width: calc((100% / 3) - 10px);
+}
+}
+@media only screen and (min-width: 1200px){
+.box3 {background:White;
+  width: calc((100% / 3) - 10px);
+}
+}
+@media only screen and (min-width: 1200px){
+.box4 {background: White;
+  width: calc((100% / 3) - 10px);
+}
+}
+@media only screen and (max-width: 780px) {
+  .Mainbox {background: White;
+  width: calc((100% / 2) - 10px);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .box1 {background:White;
+  width: calc((100% / 2) - 10px);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .box2 {background: White;
+  width: calc((100% / 2) - 10px);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .box3 {background:White;
+  width: calc((100% / 2) - 10px);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .box4 {background: White;
+  width: calc((100% / 2) - 10px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Mainbox {background: red;
+  width:100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .box1 {background: red;
+  width:100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .box2 {background: red;
+  width:100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .box3 {background: red;
+  width:100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .box4 {background: red;
+  width:100%;
+  }

@@ -1,0 +1,41 @@
+.Mainbox{
+  width: 80%;
+margin: 0 auto;
+border: 2px solid Gainsboro;
+display: flex;
+flex-wrap: wrap;
+}
+body{
+  background-color: Gainsboro;
+  margin: 0;
+}
+.box{
+width: calc((100% / 4) - 20px);
+box-sizing: border-box;
+border: 2px solid white;
+text-align: center;
+background-color: white;
+margin: 20px 10px;
+}
+.pic1{
+  border-radius: 50%;
+}
+p{
+  position: relative;
+  font-family: 'Titillium Web',sans-serif;
+  color: grey;
+}
+@media only screen and (max-width: 1024px) {
+  .box {background: lightblue;
+      width: calc((100% / 3) - 10px);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .box {background: pink;
+  width: calc((100% / 2) - 10px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .box {background: red;
+  width:100%;
+  }

@@ -1,0 +1,23 @@
+/*body {
+
+}*/
+.box {
+  box-sizing: border-box;
+  padding: 20px;
+  width: calc((100% / 4) - 10px);
+  display: inline-block;
+}
+@media only screen and (max-width: 1024px) {
+  .box {background: lightblue;
+      width: calc((100% / 3) - 10px);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .box {background: gold;
+  width: calc((100% / 2) - 10px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .box {background: red;
+  width:100%;
+  }

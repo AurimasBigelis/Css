@@ -1,0 +1,89 @@
+ a:active {
+  color:pink;
+}
+.box1 p:before{
+  content:"tekstas prieš";
+    color:red;
+}
+.box1 p:before{
+  content:"tekstas prieš";
+    color:red;
+}
+.box2 p:after{
+ content:" tekstas po";
+   color:red;
+}
+.box3 p:before{
+  content: " ";
+  background: pink;
+  width: 100px;
+  height: 10px;
+  display: inline-block;
+}
+.box4 p:after{
+  content: " ";
+  background: pink;
+  width: 100px;
+  height: 10px;
+  display: inline-block;
+}
+.box5 p:before{
+content:
+url("Images/pic.jpg");
+}
+.box6 p:after{
+content:
+url("Images/pic.jpg");
+}
+.a1 p::selection {
+  color: red;
+  background: yellow;
+}
+.a2 p::first-letter{
+font-size: 55px;
+color: green;
+
+}
+.ad1 p::first-line{
+  background-color: red;
+}
+.el1 li:nth-Child(odd){
+  color: red;
+}
+.el2 li:nth-Child(odd){
+  color: red;
+}
+.paskutinis li:last-child{
+  color:red;
+}
+.pirmas li:first-child{
+  color:red;
+}
+.pasirinktinas li:nth-child(4) {
+  color: red;
+}
+.spal {
+  width: 200px;
+  height: 200px;
+background: red;
+}
+.spal:hover{
+  width: 100%;
+}
+.spal1 {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+.spal1:hover{
+transform: translatex(+50px);
+}
+.spal2 {
+  width: 200px;
+  height: 200px;
+background: red;
+
+}
+.spal2:hover{
+color: blue;
+}
