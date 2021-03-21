@@ -1,0 +1,94 @@
+body{
+font-family: 'Red Hat Display', sans-serif;
+background-color: #f3f3f3;
+}
+h3{
+font-family: 'Red Hat Display', sans-serif;
+font-size: 20px;
+color:#fb4c47;
+}
+h2{
+font-family: 'Red Hat Display', sans-serif;
+color:  #035755;
+font-size: 27px;
+}
+h1{
+font-family: 'Red Hat Display', sans-serif;
+font-size: 36px;
+}
+p{
+  font-size:18px;
+  color: #4B4F51;
+}
+.mainbox{
+margin: auto;
+width: 80rem;
+display: flex;
+justify-content: space-between;
+}
+.nav p:hover{
+  color:#fb4c47;
+}
+.button{
+position: absolute;
+color: white;
+width: 130px;
+height: 40px;
+background-color: red;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bigbox{
+border-radius: 20px;
+margin: auto;
+width: 60rem;
+display: flex;
+justify-content: space-around;
+background-color: white;
+}
+.foto{
+border-radius: 20px;
+width: 400px;
+}
+.ps{
+width: 270px;
+}
+.layout{
+display: grid;
+gap: 50px;
+}
+.tuscias{
+height: 200px;
+width: 60rem;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+.box{
+border-bottom: 5px solid red;
+justify-content: center;
+text-align: center;
+background-color: white;
+border-radius: 20px;
+}
+.midllebox{
+display: grid;
+grid-template-columns: repeat(3,45vh);
+grid-gap: 15px;
+justify-content: center;
+}
+.boxfoto{
+height: 270px;
+}
+.mainfoto{
+margin: auto;
+width: 60rem;
+}
+.simptomai{
+justify-content: center;
+text-align: center;
+width: 60rem;
+margin: auto;
+}
